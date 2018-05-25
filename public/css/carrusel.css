@@ -1,0 +1,9 @@
+div.slide{
+	height: 100vh;
+	max-height: 500px;
+}
+
+img.slide{
+	width: 100%;
+	height: 550px;
+}

@@ -1,0 +1,48 @@
+div#informacion_general:before{
+	content: 'Informacion General';
+	font-size: 1.7em;
+	background-color: rgb(247, 248, 252);
+	border: 1px solid #33B4FF;
+	position: relative;
+	top: -50px;
+}
+
+div#direccion:before{
+	content: 'Direccion';
+	font-size: 1.7em;
+	border: 1px solid #440600;
+	background-color: rgb(247, 248, 252);
+	position: relative;
+	top: -50px;
+}
+
+div#informacion_adiccional:before{
+	content: 'Informacion Adicional';
+	font-size: 1.7em;
+	border: 1px solid #FF5F00;
+	background-color: rgb(247, 248, 252);
+	position: relative;
+	top: -50px;
+}
+
+div#informacion_general{
+	border: 1px solid #33B4FF;
+	padding: 31px; 
+	/*background-color: #E3EDF2;*/
+}
+
+div#direccion{
+	border: 1px solid #440600;
+	padding: 31px; 
+	/*background-color: #E4C1BC;*/
+}
+
+div#informacion_adiccional{
+	border: 1px solid #FF5F00;
+	padding: 31px; 
+	/*background-color: #FFF2E7;*/
+}
+
+div.seccion:nth-of-type(n+2){
+	margin-top: 37px;
+}

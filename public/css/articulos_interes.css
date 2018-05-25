@@ -1,0 +1,18 @@
+img.articulos_interes {
+	width: 100%;
+	height: 150px;
+}
+
+a.articulos_interes{
+	color: #FF530D;
+}
+
+a.articulos_interes:visited {
+    color: green;
+}
+
+
+a.articulos_interes:hover {
+    opacity: .5;
+    text-decoration: none;
+}

@@ -1,0 +1,33 @@
+body{
+	background-color: #F7F8FC;
+}
+
+button{
+	cursor: pointer;
+}
+
+label.btn{
+	cursor: pointer;
+}
+
+div.centrado_vertical{
+	min-height: 100%; 
+	min-height: 100vh; 
+	display: flex; 
+	align-items: center;
+}
+
+div.menu, form.menu{
+	padding: 31px;
+	border: 1px solid #010240;;
+	box-shadow: 7px 11px #CCCCCC;
+}
+
+small.invalid-feedback{
+	display: block;
+}
+
+img.crud{
+	height: 20px;
+	width: 20px;
+}

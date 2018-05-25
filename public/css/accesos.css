@@ -1,0 +1,10 @@
+img.menu{
+	height: 64px;
+	width: 64px;
+}
+
+button.administracion{
+	display: block;
+	width:100%;
+    margin: 31px 0;
+}

@@ -1,0 +1,27 @@
+div#menu{
+	margin: 31px auto;
+}
+
+a.menu{
+	text-decoration: none;
+	color: black;
+	margin: 17px 0;
+	padding: 11px;
+
+}
+
+a.menu:visited {
+    color: green;
+}
+
+a.menu:hover{
+	opacity: .5;
+    text-decoration: none;
+	transform: scale(1.17);
+	outline: 1px solid #0003C7;
+}
+
+img.menu{
+	width: 200px;
+	height: 200px;
+}
